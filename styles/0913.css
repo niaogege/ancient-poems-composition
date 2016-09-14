@@ -1,17 +1,18 @@
-html{height:100%;}
+html{height:100%;min-width:320px;}
 *{padding: 0;margin: 0;}
 ul li{list-style:none;}
-body{font-size:10px;-webkit-font-smoothing:antialiased;word-break:break-all;white-space:normal;word-wrap:break-word;overflow-y:auto;overflow-x:hidden;}
+body{font-size:10px;-webkit-font-smoothing:antialiased;word-break:break-all;white-space:normal;word-wrap:break-word;overflow-y:auto;overflow-x:hidden;height:100%;}
 a{text-decoration: none;color:hsl(0,10%,10%);}
 
 
-.ad{width:100%;height:100%;}
+.ad{width:100%;}
 
 
 .content{font-size:2rem;margin-top:5rem;width:80%;margin:0 auto;padding:2rem 1rem;}
 .content>div{margin-bottom:7rem;text-align:center;}
 .content>div>h2{text-align:center;margin-bottom:2rem;font-weight:600;width:100%;font-family:"楷体";}
-
+#zubie img{transition:all 0.6s ease-in;-webkit-transition:all 0.6s ease-in;-moz-transition:all 0.6s ease-in;}
+#zubie img:hover{transform:scale(0.95);-webkit-transform:scale(0.95);-moz-transform:scale(0.95);}
 .row{	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -23,8 +24,27 @@ a{text-decoration: none;color:hsl(0,10%,10%);}
 .xiaoxue:hover,.zhongxue:hover{background-color:hsla(0,10%,10%,0.9);}
 .xiaoxue a:hover,.zhongxue a:hover{color:yellow;text-decoration:none;}
 
-.xingshi-cont{text-indent:30px;text-align:left;padding:5px 8px;}
+.xingshi-cont{text-indent:30px;text-align:left;padding:5px 8px;margin-bottom:5rem;}
+.xingshi-cont p{color:hsl(0,10%,40%);font-size:1.8rem;}
 .clearfix{clear:both;}
 .clearfix:after{content:'';clear:both;}
+#xingshi{display:block;}
+.xingshi-i{color:#990066;}
 #prize{margin-top:120px;display:block;}
-.content p {font-size:1.8rem;}
+#prize .title{display:block;margin-bottom:2rem;}
+
+
+.prize-item ul li{font-size:1.5rem;margin:1rem;}
+.footer{width:100%;}
+.footer-cont{width:100%;padding:2rem;background-color:hsla(120,70%,50%,0.6);margin:0 auto;}
+.footer-cont-up{width:20%;margin:2rem auto;}
+@media screen and (min-width:960px){
+.footer-cont-up img{outline:1px solid white;margin:0 2rem;}}
+.footer-cont-up img:hover{box-shadow:0px 0px 10px 5px #CC00CC;}
+
+.footer-cont-down{color:white;font-weight:500;margin:0 auto;width:100%;text-align:center;}
+.footer-cont-down h4{line-height:3rem;text-transform:uppercase;}
+.footer-cont-down h4 a{color:#993366;}
+@media screen and (max-width:660px){
+.footer-cont-up img{outline:1px solid white;margin:2rem;}
+	}
