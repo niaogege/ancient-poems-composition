@@ -1,0 +1,30 @@
+html{height:100%;}
+*{padding: 0;margin: 0;}
+ul li{list-style:none;}
+body{font-size:10px;-webkit-font-smoothing:antialiased;word-break:break-all;white-space:normal;word-wrap:break-word;overflow-y:auto;overflow-x:hidden;}
+a{text-decoration: none;color:hsl(0,10%,10%);}
+
+
+.ad{width:100%;height:100%;}
+
+
+.content{font-size:2rem;margin-top:5rem;width:80%;margin:0 auto;padding:2rem 1rem;}
+.content>div{margin-bottom:7rem;text-align:center;}
+.content>div>h2{text-align:center;margin-bottom:2rem;font-weight:600;width:100%;font-family:"楷体";}
+
+.row{	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 80rem;}
+.xiaoxue,.zhongxue{width:100%;background-color:hsla(0,10%,50%,0.6);margin:1rem auto;padding:1rem;border-radius:0.5rem;cursor:pointer;}
+.xiaoxue a,.zhongxue a{color:white;}
+.xiaoxue:hover,.zhongxue:hover{background-color:hsla(0,10%,10%,0.9);}
+.xiaoxue a:hover,.zhongxue a:hover{color:yellow;text-decoration:none;}
+
+.xingshi-cont{text-indent:30px;text-align:left;padding:5px 8px;}
+.clearfix{clear:both;}
+.clearfix:after{content:'';clear:both;}
+#prize{margin-top:120px;display:block;}
+.content p {font-size:1.8rem;}
