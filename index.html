@@ -17,9 +17,13 @@
 </head>
 <body>
     <div class="ad" id="home">
-		<div class="ad-content">
-		    <img src="images/ancient-poems.jpg" srcset="images/ancient-poems.jpg 1440w,images/ancient-poems660px.jpg 660w,images/ancient-poems480px.jpg 480w,images/ancient-poems320px.jpg 320w" sizes="70%">
-		</div>
+		<figure>
+		 <img src="images/ancient-poems.jpg" srcset="images/ancient-poems.jpg 1440w,images/ancient-poems660px.jpg 660w,images/ancient-poems480px.jpg 480w,images/ancient-poems320px.jpg 320w" sizes="70%">
+		 <figcaption class="effect1">
+			<p class="p-eff1">中共常州市委宣传部 常州市教育局 自主学习网</p>
+			<p class="p2-eff1">2016年10月</p>
+		 </figcaption>
+	 </figure>
 	
 	</div>
 
@@ -108,7 +112,16 @@
 
 			
 			</div>
-			
+			 <figure class="img-list">
+					<img class="img-list-eff1" src="images/ernianjiliti.png">
+					<img class="img-list-eff2" src="images/sannianjiliti.png">
+					<img class="img-list-eff3" src="images/yinianjiliti.png">
+				 </figure>
+				  <figure class="img-list2">
+					<img class="img-list2-eff1" src="images/ernianjiliti.png">
+					<img class="img-list2-eff2" src="images/sannianjiliti.png">
+					<img class="img-list2-eff3" src="images/yinianjiliti.png">
+			</figure>
 		</div>
 		
 		<div id="prize" title="奖项设置" class="clearfix">
@@ -174,7 +187,23 @@
                               });
                 });
               });
-            
+            $(function(){
+	var cap=document.getElementsByTagName("figcaption")[0];
+	var $cap=$(cap);
+	
+	$cap.addClass("effect2");
+	$(".title-eff1").addClass("title-eff2");
+	$(".p-eff1").addClass("p-eff2");
+	$(".p2-eff1").addClass("p2-eff2");
+	$(".img-list-eff1").addClass("img-eff1");
+	$(".img-list-eff2").addClass("img-eff2");
+	$(".img-list-eff3").addClass("img-eff3");
+	$(".img-list2-eff1").addClass("img2-eff1");
+	$(".img-list2-eff2").addClass("img2-eff2");
+	$(".img-list2-eff3").addClass("img2-eff3");
+})
+
+
             </script>
 	
 </body>
