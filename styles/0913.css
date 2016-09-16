@@ -9,7 +9,20 @@ a{text-decoration: none;color:hsl(0,10%,10%);}
 .fa{color:#66FF99 !important;}
 .fa:hover{color:#CC0033 !important;}
 
-.content{font-size:2rem;margin-top:5rem;width:80%;margin:0 auto;padding:2rem 1rem;}
+.content{font-size:2rem;margin-top:5rem;margin:0 auto;padding:2rem 1rem;}
+
+@media screen and (min-width:960px){
+	.content{width:80%;}
+	
+}
+@media screen and (max-width:960px){
+	.content{width:90%;}
+	
+}
+@media screen and (max-width:660px){
+	.content{width:95%;}
+	
+}
 .content>div{margin-bottom:6rem;text-align:center;}
 .content>div>h2{text-align:center;margin-bottom:2rem;font-weight:600;width:100%;font-family:"楷体";}
 #zubie img{transition:all 0.6s ease-in;-webkit-transition:all 0.6s ease-in;-moz-transition:all 0.6s ease-in;}
@@ -26,7 +39,7 @@ a{text-decoration: none;color:hsl(0,10%,10%);}
 .xiaoxue a:hover,.zhongxue a:hover{color:yellow;text-decoration:none;}
 
 .xingshi-cont{text-indent:30px;text-align:left;padding:5px 8px;margin-bottom:5rem;}
-.xingshi-cont p{color:hsl(0,10%,35%);font-size:1.6rem;}
+.xingshi-cont p{color:hsl(0,10%,35%);font-size:1.6rem;line-height:2.5rem;}
 .clearfix{clear:both;}
 .clearfix:after{content:'';clear:both;}
 #xingshi{display:block;}
@@ -39,13 +52,22 @@ a{text-decoration: none;color:hsl(0,10%,10%);}
 .footer{width:100%;}
 .footer-cont{width:100%;padding:2rem;background-color:hsla(120,70%,50%,0.6);margin:0 auto;}
 .footer-cont-up{width:20%;margin:2rem auto;}
-@media screen and (min-width:960px){
-.footer-cont-up img{outline:1px solid white;margin:0 2rem;}}
+
+@media screen and (min-width:961px){
+.footer-cont-up img{outline:1px solid white;margin:0 2rem;}
+}
+
 .footer-cont-up img:hover{box-shadow:0px 0px 10px 5px hsla(0,10%,30%,0.5);}
 
 .footer-cont-down{color:white;font-weight:500;margin:0 auto;width:100%;text-align:center;}
 .footer-cont-down h4{line-height:3rem;text-transform:uppercase;}
 .footer-cont-down h4 a{color:#993366;}
-@media screen and (max-width:660px){
+
+
+@media screen and (min-width:661px) and (max-width:960px){
 .footer-cont-up img{outline:1px solid white;margin:2rem;}
+	}
+	
+	@media screen and (max-width:660px){
+.footer-cont-up img{outline:2px solid white;margin:2rem;}
 	}
