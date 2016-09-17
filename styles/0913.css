@@ -14,7 +14,7 @@ a{text-decoration: none;color:hsl(0,10%,10%);}
 .ad figure figcaption .p2-eff1{display:block;position:absolute;top:90%;left:10%;opacity:0;font-weight:200;display:block;margin:1rem 0;left:48%;}
 .ad figure figcaption .p2-eff2{transition-delay:.8s;-webkit-transition-delay:.8s;-moz-transition-delay:.8s;top:40%;opacity:1;left:48%;padding:0 2px;}
 
-.ad figure figcaption p{color:white;font-size:1.8rem;font-weight:400;margin:0.5rem 0;font-family:"楷体";background-color:rgba(120,120,120,.5);}
+
 
 
 .fa{color:#66FF99 !important;}
@@ -24,15 +24,15 @@ a{text-decoration: none;color:hsl(0,10%,10%);}
 
 @media screen and (min-width:960px){
 	.content{width:80%;}
-	
+	.ad figure figcaption p{color:white;font-size:1.8rem;font-weight:400;margin:0.5rem 0;font-family:"楷体";background-color:#83A9BE;}
 }
 @media screen and (max-width:960px){
 	.content{width:90%;}
-	
+	.ad figure figcaption p{color:white;font-size:1.2rem;font-weight:300;margin:0.5rem 0;font-family:"楷体";background-color:#D6D5B0}
 }
 @media screen and (max-width:660px){
 	.content{width:95%;}
-	
+	.ad figure figcaption p{color:black;font-size:1rem;font-weight:200;margin:0rem 0;font-family:"楷体";}
 }
 .content>div{margin-bottom:6rem;text-align:center;}
 .content>div>h2{text-align:center;margin-bottom:2rem;font-weight:600;width:100%;font-family:"楷体";}
