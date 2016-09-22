@@ -56,11 +56,18 @@ a{text-decoration: none;color:hsl(0,10%,10%);}
 .clearfix:after{content:'';clear:both;}
 #duixing{display:block;position:relative;}
 #duixing .people  h4{display:block;margin-bottom:2rem !important;}
-#duixiang  .left-img{max-width:95%;position:absolute;left:0%;top:73%;transition:all 2s;-webkit-transition:all 2s;display:block;z-index:1;}
-#duixiang  .right-img{position:absolute;right:0%;top:73%;transition:all 2s;-webkit-transition:all 2s;display:block;z-index:1;}
-#duixiang .disapper1{position:absolute;right:1%;top:73%;z-index:99;}
-#duixiang .disapper1{position:absolute;left:1%;top:73%;z-index:99;}
-#duixiang div[class ^= "img-none-"]{cursor:pointer;}
+
+
+#duixiang div[class ^= "img-none-"]{cursor:pointer;position:absolute;}
+.img-none-left{left:0%;top:80%;transition:all 2s;-webkit-transition:all 2s;display:block;}
+.img-none-right{right:0%;top:80%;transition:all 2s;-webkit-transition:all 2s;display:block;}
+#duixiang .disapper1{position:absolute;left:5%;}
+#duixiang .disapper2{position:absolute;right:5%;}
+div[class *="disapper"]{color:black !important;}
+#duixiang  .left-img{}
+#duixiang  .right-img{}
+
+
 #xingshi{display:block;}
 .xingshi-i{color:#990066;}
 #prize{display:block;}
